@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Kỹ thuật Truyền số liệu">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f9f0"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#bg)"/>
+<circle cx="485" cy="120" r="181" fill="#d0ede2" opacity=".35"/>
+<circle cx="171" cy="346" r="151" fill="#d0ede2" opacity=".25"/>
+<g stroke="#308c80" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
+<g><path d="M106 210h365" stroke="#308c80" stroke-width="7" stroke-dasharray="15 16"/><rect x="125" y="156" width="120" height="101" rx="15" fill="#308c80" fill-opacity=".14" stroke="#308c80" stroke-width="6"/><rect x="350" y="156" width="120" height="101" rx="15" fill="#308c80" fill-opacity=".14" stroke="#308c80" stroke-width="6"/><path d="M156 189h65m-65 26h42M380 189h64m-64 26h41" stroke="#308c80" stroke-width="7" stroke-linecap="round"/><circle cx="299" cy="210" r="28" fill="#308c80" fill-opacity=".19" stroke="#308c80" stroke-width="5"/><path d="m292 195 16 15-16 15" stroke="#308c80" stroke-width="5" stroke-linejoin="round"/></g></svg>

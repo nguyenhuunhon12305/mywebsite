@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" role="img" aria-label="Minh họa Cơ sở và ứng dụng IoTs">
+<defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f9f3"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#paper)"/>
+<circle cx="485" cy="117" r="195" fill="#cdece2" opacity=".36"/>
+<circle cx="170" cy="355" r="150" fill="#cdece2" opacity=".29"/>
+<g stroke="#2e8875" stroke-opacity=".09" stroke-width="3" fill="none"><path d="M6 76h124l43 43h53M0 366h236l55-44h148M490 35h68v76h82"/><path d="M10 31h274M2 103h78M435 379h200"/><circle cx="129" cy="76" r="7"/><circle cx="558" cy="110" r="7"/><circle cx="291" cy="322" r="7"/></g>
+<g stroke="#2e8875" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none">
+<path d="M322 188 205 108M322 188l148-96M322 188l148 158M322 188l-165 136M322 188v-112"/>
+</g>
+<g fill="#ffffff" stroke="#2e8875" stroke-width="7"><circle cx="322" cy="188" r="63"/><circle cx="205" cy="108" r="28"/><circle cx="470" cy="92" r="29"/><circle cx="470" cy="346" r="28"/><circle cx="157" cy="324" r="28"/><circle cx="322" cy="76" r="25"/></g>
+<g stroke="#2e8875" stroke-width="6" stroke-linecap="round" fill="none"><rect x="295" y="172" width="54" height="32" rx="8"/><path d="M309 188h25M199 108h11M464 85l12 12M148 324h18M458 346h24M312 78h20"/></g>
+<path d="M365 149q48 40 0 80m27-105q78 65 0 132" stroke="#2e8875" stroke-width="6" stroke-linecap="round" fill="none" opacity=".7"/>
+</svg>
