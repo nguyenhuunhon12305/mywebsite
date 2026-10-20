@@ -10,3 +10,12 @@ Trang tài liệu: dữ liệu thêm bằng trình duyệt lưu trong localStora
 Cap nhat 20-10-2026: Trang chu da them nen vi mach cho khung nganh/chuyen nganh va 4 anh nen minh hoa cho 4 muc chinh.
 
 Cap nhat 20/10/2026: Trang gioi-thieu.html -> So luoc ve ban than voi 9 muc rieng, van phong mien Tay, khung loi nhan va ket bai.
+
+
+MÔN ĐẠI CƯƠNG: 6 link Google Drive được nhúng trực tiếp trong script.js, nên người truy cập GitHub Pages đều thấy. Chọn nhóm Môn đại cương tại trang Tài liệu để xem các môn xếp dọc. Link thêm bằng nút Thêm tài liệu vẫn chỉ lưu ở localStorage.
+
+Cập nhật: 12 môn Cơ sở ngành lưu sẵn trực tiếp trong script.js với 12 link Google Drive, mỗi môn có background SVG riêng, danh sách xếp dọc. Giữ 6 môn Đại cương có trước.
+
+Cap nhat 20/10/2026: Muc Mon chuyen nganh da co 7 mon, 7 link Google Drive va 7 nen SVG. Nhãn danh muc hien X mon co tai lieu.
+
+21/10/2026: Da thay 10 nen mon Co so nganh dau tien bang nen moi tong hop tu minh hoa chuyen mon. Hai mon 11, 12 chua doi nen. Cac link tai lieu giu nguyen.

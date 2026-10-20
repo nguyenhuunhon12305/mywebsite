@@ -1252,3 +1252,422 @@ h1, h2, h3, .brand-name, .section-heading, .page-banner h1, .hero h1 {
   .story-conclusion-icon {width:38px;height:38px;flex-basis:38px;font-size:20px;}
   .story-conclusion p {font-size:12px;}
 }
+
+
+/* ===== 6 môn đại cương: mỗi môn 1 hàng ngang, cả danh sách xếp dọc ===== */
+.resource-grid.general-course-list {grid-template-columns:minmax(0,1fr);gap:19px;}
+.general-course-card {
+  --course-ink:#246853;--course-border:#cde7db;--course-bg:#e9f7ed;
+  position:relative; display:flex; align-items:stretch; min-height:226px;
+  padding:25px 31px; isolation:isolate;
+  overflow:hidden; border-radius:22px; border:1px solid var(--course-border);
+  background:linear-gradient(115deg,#fff 3%,var(--course-bg) 100%);
+  box-shadow:0 10px 32px rgba(35,80,61,.06);
+  transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease;
+}
+.general-course-card:hover {transform:translateY(-3px);box-shadow:0 16px 34px rgba(35,80,61,.12);border-color:var(--course-ink);}
+.general-course-card::before {content:"";position:absolute;inset:0;pointer-events:none;z-index:-1;
+  background:linear-gradient(90deg,rgba(255,255,255,.95) 0%,rgba(255,255,255,.82) 52%,rgba(255,255,255,.09) 100%);}
+.general-course-main {z-index:2;position:relative;min-width:0;width:min(100%,750px);display:flex;flex-direction:column;align-items:flex-start;}
+.general-course-index {font-weight:850;color:var(--course-ink);background:var(--course-bg);border:1px solid var(--course-border);
+  padding:8px 12px;border-radius:12px;font-size:15px;letter-spacing:.1em;line-height:1;}
+.general-course-card h3 {margin:12px 0 10px;font-size:clamp(20px,2.3vw,25px);line-height:1.28;font-weight:800;color:#193f36;}
+.general-course-card p {margin:0 0 8px;font-size:14px;color:#527467;font-weight:600;}
+.general-drive-link {max-width:100%;display:flex;align-items:center;gap:9px;border:1px solid var(--course-border);
+  background:rgba(255,255,255,.82);padding:9px 11px;border-radius:12px;
+  color:var(--course-ink);font-size:13px;font-weight:700;transition:background .18s ease;}
+.general-drive-link:hover,.general-drive-link:focus-visible {background:#fff;box-shadow:0 7px 18px rgba(37,87,67,.10);}
+.general-drive-icon {display:grid;place-items:center;flex:0 0 28px;height:27px;border-radius:7px;background:var(--course-bg);}
+.general-drive-icon .icon {width:16px;height:16px;}
+.general-drive-link>.icon {flex:0 0 16px;}
+.general-drive-url {display:block;min-width:0;overflow-wrap:anywhere;line-height:1.45;}
+.general-course-art {position:absolute;z-index:0;right:0;top:0;bottom:0;width:34%;
+  background-image:linear-gradient(90deg,rgba(255,255,255,.55),rgba(255,255,255,0)),var(--course-image);
+  background-repeat:no-repeat;background-size:cover,auto 100%;background-position:center,right center;
+  opacity:.66;pointer-events:none;}
+.general-course-1{--course-ink:#247f60;--course-border:#bde6d3;--course-bg:#e5f7ed;--course-image:url('images/dai-cuong-01.webp');}
+.general-course-2{--course-ink:#286f9f;--course-border:#c3def7;--course-bg:#ebf6ff;--course-image:url('images/dai-cuong-02.webp');}
+.general-course-3{--course-ink:#b16a28;--course-border:#f0d6b9;--course-bg:#fff4e6;--course-image:url('images/dai-cuong-03.webp');}
+.general-course-4{--course-ink:#7161a5;--course-border:#dcd4f5;--course-bg:#f3efff;--course-image:url('images/dai-cuong-04.webp');}
+.general-course-5{--course-ink:#ba6577;--course-border:#f1cfd6;--course-bg:#fdf0f2;--course-image:url('images/dai-cuong-05.webp');}
+.general-course-6{--course-ink:#9c7528;--course-border:#ecd9b1;--course-bg:#fcf5e7;--course-image:url('images/dai-cuong-06.webp');}
+@media(max-width:800px){
+  .general-course-card{padding:22px;min-height:210px;}
+  .general-course-art{width:40%;opacity:.38;}
+  .general-course-main{width:100%;}
+}
+@media(max-width:520px){
+  .general-course-card{padding:19px 17px;min-height:0;}
+  .general-course-art{width:58%;opacity:.21;}
+  .general-course-card h3{font-size:20px;}
+  .general-course-card p{font-size:13px;}
+  .general-drive-link{font-size:12px;padding:9px;width:100%;}
+  .general-drive-url{overflow-wrap:anywhere;}
+}
+
+
+/* ===== 12 môn cơ sở ngành: thẻ dọc, minh họa chuyên môn ===== */
+.foundation-course-1{--course-ink:#347d83;--course-border:#d0e9e7;--course-bg:#e9f7f6;--course-image:url('images/co-so-nganh-01.svg');}
+.foundation-course-2{--course-ink:#247ba2;--course-border:#cce7f6;--course-bg:#ecf8ff;--course-image:url('images/co-so-nganh-02.svg');}
+.foundation-course-3{--course-ink:#9f7240;--course-border:#f1e1c4;--course-bg:#fff7e9;--course-image:url('images/co-so-nganh-03.svg');}
+.foundation-course-4{--course-ink:#647cae;--course-border:#dce2f7;--course-bg:#f0f3ff;--course-image:url('images/co-so-nganh-04.svg');}
+.foundation-course-5{--course-ink:#745eaa;--course-border:#e2d8f8;--course-bg:#f6f0ff;--course-image:url('images/co-so-nganh-05.svg');}
+.foundation-course-6{--course-ink:#308c80;--course-border:#d0ede2;--course-bg:#e9f9f0;--course-image:url('images/co-so-nganh-06.svg');}
+.foundation-course-7{--course-ink:#af6b48;--course-border:#f1dac7;--course-bg:#fff2e9;--course-image:url('images/co-so-nganh-07.svg');}
+.foundation-course-8{--course-ink:#565d98;--course-border:#dedffc;--course-bg:#f0f1ff;--course-image:url('images/co-so-nganh-08.svg');}
+.foundation-course-9{--course-ink:#248b95;--course-border:#ccebf0;--course-bg:#eafaFC;--course-image:url('images/co-so-nganh-09.svg');}
+.foundation-course-10{--course-ink:#8c709f;--course-border:#eadcf4;--course-bg:#fbf3ff;--course-image:url('images/co-so-nganh-10.svg');}
+.foundation-course-11{--course-ink:#3e8191;--course-border:#d0e5ec;--course-bg:#eff8fb;--course-image:url('images/co-so-nganh-11.svg');}
+.foundation-course-12{--course-ink:#ba758c;--course-border:#f1dbe3;--course-bg:#fff1f5;--course-image:url('images/co-so-nganh-12.svg');}
+
+/* ===== 7 môn chuyên ngành: mỗi môn một thẻ dọc, hình minh họa riêng ===== */
+.specialized-course-1{--course-ink:#2e8875;--course-border:#cdece2;--course-bg:#e9f9f3;--course-image:url('images/chuyen-nganh-01.svg');}
+.specialized-course-2{--course-ink:#2c80af;--course-border:#cbe9f6;--course-bg:#edf9ff;--course-image:url('images/chuyen-nganh-02.svg');}
+.specialized-course-3{--course-ink:#6b7dad;--course-border:#d9e2f5;--course-bg:#eff4ff;--course-image:url('images/chuyen-nganh-03.svg');}
+.specialized-course-4{--course-ink:#8060ac;--course-border:#e4d7f6;--course-bg:#f6efff;--course-image:url('images/chuyen-nganh-04.svg');}
+.specialized-course-5{--course-ink:#b87943;--course-border:#f0ddc5;--course-bg:#fff5e9;--course-image:url('images/chuyen-nganh-05.svg');}
+.specialized-course-6{--course-ink:#467c9e;--course-border:#cce4ef;--course-bg:#edf8fb;--course-image:url('images/chuyen-nganh-06.svg');}
+.specialized-course-7{--course-ink:#b0698b;--course-border:#efd2e0;--course-bg:#fff0f7;--course-image:url('images/chuyen-nganh-07.svg');}
+/* Giữ nhãn số môn trong thẻ phân loại gọn gàng trên thiết bị nhỏ. */
+.subject-card .subject-bottom > span {line-height:1.35;}
+@media (max-width:480px){
+  .general-course-card .general-course-art {opacity:.18;}
+}
+
+.elective-course-1{--course-ink:#2d8f83;--course-border:#c8ebe3;--course-bg:#eaf9f6;--course-image:url('images/elective-01.svg');}
+.elective-course-2{--course-ink:#416eaf;--course-border:#d4e2f7;--course-bg:#edf4ff;--course-image:url('images/elective-02.svg');}
+.english1-course-1{--course-ink:#b0791e;--course-border:#efddb1;--course-bg:#fff7e8;--course-image:url('images/english-01.svg');}
+.english2-course-1{--course-ink:#7a5aae;--course-border:#e1d4f4;--course-bg:#f7f0ff;--course-image:url('images/english-02.svg');}
+
+
+/* 20-10-2026 — 6 background Đại cương mới từ bộ minh họa theo từng môn.
+   Chỉ tác động nhóm Đại cương, giữ nguyên các nhóm khác. */
+.general-course-1, .general-course-2, .general-course-3,
+.general-course-4, .general-course-5, .general-course-6 {
+  background:linear-gradient(107deg,#ffffff 0%,#fffefa 49%,var(--course-bg) 100%);
+  min-height:228px;
+}
+.general-course-1 .general-course-art, .general-course-2 .general-course-art,
+.general-course-3 .general-course-art, .general-course-4 .general-course-art,
+.general-course-5 .general-course-art, .general-course-6 .general-course-art {
+  width:47%; opacity:.98;
+  background-image:linear-gradient(90deg,rgba(255,255,255,.97),rgba(255,255,255,.58) 20%,rgba(255,255,255,0) 48%), var(--course-image);
+  background-position:center,center;
+  background-size:100% 100%,cover;
+}
+.general-course-1 .general-course-main, .general-course-2 .general-course-main,
+.general-course-3 .general-course-main, .general-course-4 .general-course-main,
+.general-course-5 .general-course-main, .general-course-6 .general-course-main {
+  width:min(100%,720px);
+}
+@media(max-width:800px){
+  .general-course-1 .general-course-art,.general-course-2 .general-course-art,
+  .general-course-3 .general-course-art,.general-course-4 .general-course-art,
+  .general-course-5 .general-course-art,.general-course-6 .general-course-art {
+    width:56%;opacity:.40;
+  }
+}
+@media(max-width:520px){
+  .general-course-1 .general-course-art,.general-course-2 .general-course-art,
+  .general-course-3 .general-course-art,.general-course-4 .general-course-art,
+  .general-course-5 .general-course-art,.general-course-6 .general-course-art {
+    width:100%;opacity:.19;
+  }
+  .general-course-1, .general-course-2, .general-course-3,
+  .general-course-4, .general-course-5, .general-course-6 {min-height:0;}
+}
+
+
+/* 21-10-2026 - Bo background moi cho 10 mon Co so nganh dau tien. */
+.foundation-course-1{--course-image:url('images/co-so-nganh-pro-01.webp');}
+.foundation-course-2{--course-image:url('images/co-so-nganh-pro-02.webp');}
+.foundation-course-3{--course-image:url('images/co-so-nganh-pro-03.webp');}
+.foundation-course-4{--course-image:url('images/co-so-nganh-pro-04.webp');}
+.foundation-course-5{--course-image:url('images/co-so-nganh-pro-05.webp');}
+.foundation-course-6{--course-image:url('images/co-so-nganh-pro-06.webp');}
+.foundation-course-7{--course-image:url('images/co-so-nganh-pro-07.webp');}
+.foundation-course-8{--course-image:url('images/co-so-nganh-pro-08.webp');}
+.foundation-course-9{--course-image:url('images/co-so-nganh-pro-09.webp');}
+.foundation-course-10{--course-image:url('images/co-so-nganh-pro-10.webp');}
+
+.foundation-course-1,
+.foundation-course-2,
+.foundation-course-3,
+.foundation-course-4,
+.foundation-course-5,
+.foundation-course-6,
+.foundation-course-7,
+.foundation-course-8,
+.foundation-course-9,
+.foundation-course-10 {
+ background:linear-gradient(107deg,#fff 0%,#fffefa 46%,var(--course-bg) 100%);
+ min-height:228px;
+}
+.foundation-course-1 .general-course-art,
+.foundation-course-2 .general-course-art,
+.foundation-course-3 .general-course-art,
+.foundation-course-4 .general-course-art,
+.foundation-course-5 .general-course-art,
+.foundation-course-6 .general-course-art,
+.foundation-course-7 .general-course-art,
+.foundation-course-8 .general-course-art,
+.foundation-course-9 .general-course-art,
+.foundation-course-10 .general-course-art {
+ width:48%;opacity:.98;
+ background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.47) 24%,rgba(255,255,255,0) 53%),var(--course-image);
+ background-position:center,center;
+ background-size:100% 100%,cover;
+}
+.foundation-course-1 .general-course-main,
+.foundation-course-2 .general-course-main,
+.foundation-course-3 .general-course-main,
+.foundation-course-4 .general-course-main,
+.foundation-course-5 .general-course-main,
+.foundation-course-6 .general-course-main,
+.foundation-course-7 .general-course-main,
+.foundation-course-8 .general-course-main,
+.foundation-course-9 .general-course-main,
+.foundation-course-10 .general-course-main {width:min(100%,720px);}
+@media(max-width:800px){
+ .foundation-course-1 .general-course-art,
+.foundation-course-2 .general-course-art,
+.foundation-course-3 .general-course-art,
+.foundation-course-4 .general-course-art,
+.foundation-course-5 .general-course-art,
+.foundation-course-6 .general-course-art,
+.foundation-course-7 .general-course-art,
+.foundation-course-8 .general-course-art,
+.foundation-course-9 .general-course-art,
+.foundation-course-10 .general-course-art {width:56%;opacity:.42;}
+}
+@media(max-width:520px){
+ .foundation-course-1 .general-course-art,
+.foundation-course-2 .general-course-art,
+.foundation-course-3 .general-course-art,
+.foundation-course-4 .general-course-art,
+.foundation-course-5 .general-course-art,
+.foundation-course-6 .general-course-art,
+.foundation-course-7 .general-course-art,
+.foundation-course-8 .general-course-art,
+.foundation-course-9 .general-course-art,
+.foundation-course-10 .general-course-art {width:100%;opacity:.18;}
+ .foundation-course-1,
+.foundation-course-2,
+.foundation-course-3,
+.foundation-course-4,
+.foundation-course-5,
+.foundation-course-6,
+.foundation-course-7,
+.foundation-course-8,
+.foundation-course-9,
+.foundation-course-10 {min-height:0;}
+}
+
+
+/* 21-10-2026 - Nâng cấp 2 môn cơ sở ngành còn lại + 7 môn chuyên ngành. */
+.foundation-course-11{--course-image:url('images/co-so-nganh-pro-11.webp');}
+.foundation-course-12{--course-image:url('images/co-so-nganh-pro-12.webp');}
+.foundation-course-11,.foundation-course-12,.specialized-course-1,.specialized-course-2,.specialized-course-3,.specialized-course-4,.specialized-course-5,.specialized-course-6,.specialized-course-7{background:linear-gradient(107deg,#fff 0%,#fffefa 46%,var(--course-bg) 100%);min-height:228px;}
+.specialized-course-1{--course-image:url('images/chuyen-nganh-pro-01.webp');}
+.specialized-course-2{--course-image:url('images/chuyen-nganh-pro-02.webp');}
+.specialized-course-3{--course-image:url('images/chuyen-nganh-pro-03.webp');}
+.specialized-course-4{--course-image:url('images/chuyen-nganh-pro-04.webp');}
+.specialized-course-5{--course-image:url('images/chuyen-nganh-pro-05.webp');}
+.specialized-course-6{--course-image:url('images/chuyen-nganh-pro-06.webp');}
+.specialized-course-7{--course-image:url('images/chuyen-nganh-pro-07.webp');}
+.foundation-course-11 .general-course-art,.foundation-course-12 .general-course-art,.specialized-course-1 .general-course-art,.specialized-course-2 .general-course-art,.specialized-course-3 .general-course-art,.specialized-course-4 .general-course-art,.specialized-course-5 .general-course-art,.specialized-course-6 .general-course-art,.specialized-course-7 .general-course-art{width:48%;opacity:.98;background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.47) 24%,rgba(255,255,255,0) 53%),var(--course-image);background-position:center,center;background-size:100% 100%,cover;}
+.foundation-course-11 .general-course-main,.foundation-course-12 .general-course-main,.specialized-course-1 .general-course-main,.specialized-course-2 .general-course-main,.specialized-course-3 .general-course-main,.specialized-course-4 .general-course-main,.specialized-course-5 .general-course-main,.specialized-course-6 .general-course-main,.specialized-course-7 .general-course-main{width:min(100%,720px);}
+@media(max-width:800px){.foundation-course-11 .general-course-art,.foundation-course-12 .general-course-art,.specialized-course-1 .general-course-art,.specialized-course-2 .general-course-art,.specialized-course-3 .general-course-art,.specialized-course-4 .general-course-art,.specialized-course-5 .general-course-art,.specialized-course-6 .general-course-art,.specialized-course-7 .general-course-art{width:56%;opacity:.42;}}
+@media(max-width:520px){.foundation-course-11 .general-course-art,.foundation-course-12 .general-course-art,.specialized-course-1 .general-course-art,.specialized-course-2 .general-course-art,.specialized-course-3 .general-course-art,.specialized-course-4 .general-course-art,.specialized-course-5 .general-course-art,.specialized-course-6 .general-course-art,.specialized-course-7 .general-course-art{width:100%;opacity:.18;}.foundation-course-11,.foundation-course-12,.specialized-course-1,.specialized-course-2,.specialized-course-3,.specialized-course-4,.specialized-course-5,.specialized-course-6,.specialized-course-7{min-height:0;}}
+
+
+/* Hinh nen minh hoa VIP: 2 mon Co so nganh cuoi + 7 mon Chuyen nganh.
+   Chu + link la HTML that, anh khong co chu gia, giu tinh kha dung mobile. */
+.general-course-card.premium-tech-card {
+  min-height:246px;
+  padding:29px 31px;
+  border-width:1.5px;
+  border-color:var(--course-border);
+  background:
+    linear-gradient(90deg,rgba(255,255,255,.99) 0%,rgba(255,255,255,.97) 26%,rgba(255,255,255,.92) 41%,rgba(255,255,255,.64) 55%,rgba(255,255,255,0) 74%),
+    var(--course-image) center center / cover no-repeat;
+  box-shadow:0 14px 35px rgba(24,56,81,.105);
+}
+.general-course-card.premium-tech-card::before {display:none;}
+.general-course-card.premium-tech-card .general-course-art {display:none;}
+.general-course-card.premium-tech-card .general-course-main {width:min(100%,750px);}
+.general-course-card.premium-tech-card h3 {
+  color:#143a48;
+  font-size:clamp(21px,2.25vw,26px);
+  font-weight:800;
+  text-shadow:0 1px 0 rgba(255,255,255,.55);
+}
+.general-course-card.premium-tech-card .general-course-index {
+  box-shadow:0 5px 12px rgba(17,51,65,.07);
+}
+.general-course-card.premium-tech-card .general-drive-link {
+  background:rgba(255,255,255,.94);
+  box-shadow:0 4px 16px rgba(24,52,78,.05);
+  backdrop-filter:blur(4px);
+}
+.general-course-card.premium-tech-card:hover {
+  border-color:var(--course-ink);
+  box-shadow:0 18px 44px rgba(24,56,81,.17);
+}
+@media(max-width:800px){
+  .general-course-card.premium-tech-card {
+    min-height:220px;
+    padding:22px;
+    background-image:
+      linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.93) 46%,rgba(255,255,255,.62) 76%,rgba(255,255,255,.38) 100%),
+      var(--course-image);
+  }
+}
+@media(max-width:520px){
+  .general-course-card.premium-tech-card {
+    min-height:0;
+    padding:20px 18px;
+    background-image:
+      linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.93) 60%,rgba(255,255,255,.78) 100%),
+      var(--course-image);
+    background-position:center,60% center;
+  }
+  .general-course-card.premium-tech-card h3 {font-size:19px;}
+  .general-course-card.premium-tech-card .general-drive-link {font-size:11px;}
+}
+
+/* 21-10-2026 - Nâng cấp VIP cho 2 môn tự chọn chuyên ngành + 2 môn Anh văn. */
+.elective-course-1{--course-image:url('images/elective-pro-01.png');}
+.elective-course-2{--course-image:url('images/elective-pro-02.png');}
+.english1-course-1{--course-image:url('images/english-pro-01.png');}
+.english2-course-1{--course-image:url('images/english-pro-02.png');}
+
+.elective-course-1,
+.elective-course-2,
+.english1-course-1,
+.english2-course-1 {
+  background:linear-gradient(107deg,#fff 0%,#fffefa 46%,var(--course-bg) 100%);
+  min-height:228px;
+}
+.elective-course-1 .general-course-art,
+.elective-course-2 .general-course-art,
+.english1-course-1 .general-course-art,
+.english2-course-1 .general-course-art {
+  width:48%;opacity:.98;
+  background-image:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.47) 24%,rgba(255,255,255,0) 53%),var(--course-image);
+  background-position:center,center;
+  background-size:100% 100%,cover;
+}
+.elective-course-1 .general-course-main,
+.elective-course-2 .general-course-main,
+.english1-course-1 .general-course-main,
+.english2-course-1 .general-course-main {
+  width:min(100%,720px);
+}
+@media(max-width:800px){
+  .elective-course-1 .general-course-art,
+  .elective-course-2 .general-course-art,
+  .english1-course-1 .general-course-art,
+  .english2-course-1 .general-course-art {width:56%;opacity:.42;}
+}
+@media(max-width:520px){
+  .elective-course-1 .general-course-art,
+  .elective-course-2 .general-course-art,
+  .english1-course-1 .general-course-art,
+  .english2-course-1 .general-course-art {width:100%;opacity:.18;}
+  .elective-course-1,
+  .elective-course-2,
+  .english1-course-1,
+  .english2-course-1 {min-height:0;}
+}
+
+
+/* === 21/10/2026: Chuẩn hóa danh mục và khung của tất cả môn học ===
+   Không thay dữ liệu hoặc hình nền, chỉ sửa kích thước, khoảng cách và trạng thái. */
+.resource-page .subject-section{
+  position:relative;
+  z-index:1;
+  scroll-margin-top:108px;
+}
+.resource-page .subject-grid{
+  align-items:stretch;
+  grid-auto-rows:minmax(190px,auto);
+}
+.resource-page .subject-card{
+  width:100%;
+  height:100%;
+  min-height:190px;
+  margin:0;
+  transform:none;
+  border-width:1.5px;
+  border-color:#dce8df;
+  box-shadow:0 8px 24px rgba(29,81,57,.055);
+}
+.resource-page .subject-card:hover{
+  transform:none;
+  border-color:var(--tone);
+  box-shadow:0 11px 27px rgba(28,83,65,.105);
+}
+.resource-page .subject-card.is-selected{
+  border-color:var(--tone);
+  box-shadow:inset 0 0 0 1px var(--tone),0 10px 25px rgba(30,85,66,.085);
+}
+.resource-page .subject-name{min-height:0;}
+.resource-page .subject-bottom{margin-top:auto;padding-top:13px;}
+.resource-page #resource-list{scroll-margin-top:112px;}
+
+/* Cùng chiều cao và padding cho 6 + 12 + 7 + 2 + 1 + 1 môn.
+   Nền premium vẫn giữ ảnh và gradient riêng, nhưng không phóng to khung. */
+.resource-page .general-course-card,
+.resource-page .general-course-card.premium-tech-card{
+  min-height:228px;
+  padding:25px 31px;
+  border-width:1px;
+  border-radius:22px;
+  align-items:stretch;
+}
+.resource-page .general-course-card h3,
+.resource-page .general-course-card.premium-tech-card h3{
+  font-size:clamp(20px,2.3vw,25px);
+  line-height:1.28;
+  font-weight:800;
+  margin:12px 0 10px;
+}
+.resource-page .general-course-card .general-course-main,
+.resource-page .general-course-card.premium-tech-card .general-course-main{
+  width:min(100%,720px);
+}
+.resource-page .general-course-card .general-drive-link,
+.resource-page .general-course-card.premium-tech-card .general-drive-link{
+  font-size:13px;
+  padding:9px 11px;
+  min-height:40px;
+}
+@media(max-width:800px){
+  .resource-page .general-course-card,
+  .resource-page .general-course-card.premium-tech-card{
+    min-height:210px;
+    padding:22px;
+  }
+}
+@media(max-width:600px){
+  .resource-page .subject-grid{grid-auto-rows:auto;}
+  .resource-page .subject-card{min-height:155px;}
+}
+@media(max-width:520px){
+  .resource-page .general-course-card,
+  .resource-page .general-course-card.premium-tech-card{
+    min-height:0;
+    padding:19px 17px;
+  }
+  .resource-page .general-course-card h3,
+  .resource-page .general-course-card.premium-tech-card h3{
+    font-size:20px;
+    line-height:1.32;
+  }
+  .resource-page .general-course-card .general-drive-link,
+  .resource-page .general-course-card.premium-tech-card .general-drive-link{
+    font-size:12px;
+    padding:9px;
+  }
+}
