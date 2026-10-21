@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" role="img" aria-label="Minh họa Hệ thống thông tin vô tuyến">
+<defs><linearGradient id="paper" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf9ff"/><stop offset="1" stop-color="#ffffff"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#paper)"/>
+<circle cx="485" cy="117" r="195" fill="#cbe9f6" opacity=".36"/>
+<circle cx="170" cy="355" r="150" fill="#cbe9f6" opacity=".29"/>
+<g stroke="#2c80af" stroke-opacity=".09" stroke-width="3" fill="none"><path d="M6 76h124l43 43h53M0 366h236l55-44h148M490 35h68v76h82"/><path d="M10 31h274M2 103h78M435 379h200"/><circle cx="129" cy="76" r="7"/><circle cx="558" cy="110" r="7"/><circle cx="291" cy="322" r="7"/></g>
+<g stroke="#2c80af" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<path d="M319 328 397 140 475 328M343 263h109M363 213h69M384 166h26" stroke-width="9"/>
+<path d="M362 118q35-39 70 0m-103-28q68-78 136 0m-165-29q97-114 194 0" stroke-width="8"/>
+<path d="M159 203q40-45 80 0m-60-24q20-25 40 0M501 230q32-40 65 0m-48-19q17-18 32 0" stroke-width="7"/>
+</g><g fill="#ffffff" stroke="#2c80af" stroke-width="6"><rect x="134" y="216" width="127" height="74" rx="14"/><rect x="500" y="246" width="78" height="99" rx="12"/></g>
+<g stroke="#2c80af" stroke-width="5" stroke-linecap="round"><path d="M164 238h63M164 257h44M518 273h42M518 291h29"/></g>
+</svg>
