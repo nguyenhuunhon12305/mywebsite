@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Điện tử thông tin">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ecf8ff"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
-<rect width="640" height="400" fill="url(#bg)"/>
-<circle cx="485" cy="120" r="181" fill="#cce7f6" opacity=".35"/>
-<circle cx="171" cy="346" r="151" fill="#cce7f6" opacity=".25"/>
-<g stroke="#247ba2" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
-<g><path d="M300 310 372 115l73 195M331 220h83M348 173h49M315 263h115" stroke="#247ba2" stroke-width="9" stroke-linejoin="round"/><circle cx="372" cy="112" r="10" fill="#247ba2"/><path d="M343 80q30-34 59 0m-85-20q55-65 110 0m-132-20q77-95 154 0" stroke="#247ba2" stroke-width="9" stroke-linecap="round"/><path d="M155 312h85v-84h46M440 308h62v-62h57" stroke="#247ba2" stroke-width="6"/></g></svg>
