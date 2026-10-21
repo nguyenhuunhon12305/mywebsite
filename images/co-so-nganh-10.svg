@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Trường điện từ">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbf3ff"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#bg)"/>
+<circle cx="485" cy="120" r="181" fill="#eadcf4" opacity=".35"/>
+<circle cx="171" cy="346" r="151" fill="#eadcf4" opacity=".25"/>
+<g stroke="#8c709f" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
+<g><ellipse cx="314" cy="207" rx="205" ry="111" stroke="#8c709f" stroke-width="6"/><ellipse cx="314" cy="207" rx="162" ry="83" stroke="#8c709f" stroke-width="5"/><ellipse cx="314" cy="207" rx="113" ry="55" stroke="#8c709f" stroke-width="5"/><rect x="280" y="135" width="68" height="144" rx="11" fill="#8c709f" fill-opacity=".26" stroke="#8c709f" stroke-width="6"/><path d="M314 150v112M297 167h34M297 244h34" stroke="#8c709f" stroke-width="7" stroke-linecap="round"/><path d="m480 183 31 24-31 23" stroke="#8c709f" stroke-width="7"/></g></svg>

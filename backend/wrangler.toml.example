@@ -1,0 +1,12 @@
+name = "nhn-site-analytics"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[vars]
+ALLOWED_ORIGINS = "https://YOUR_USERNAME.github.io"
+# GOOGLE_CLIENT_ID = "YOUR_GOOGLE_OAUTH_CLIENT_ID.apps.googleusercontent.com" # optional
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nhn-site-analytics-db"
+database_id = "REPLACE_WITH_D1_DATABASE_ID"
