@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Điện tử cơ bản">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#e9f7f6"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
-<rect width="640" height="400" fill="url(#bg)"/>
-<circle cx="485" cy="120" r="181" fill="#d0e9e7" opacity=".35"/>
-<circle cx="171" cy="346" r="151" fill="#d0e9e7" opacity=".25"/>
-<g stroke="#347d83" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
-<g><path d="M90 205h110m0-58v116m32-116v116m0-58h94" stroke="#347d83" stroke-width="9"/><rect x="326" y="181" width="90" height="48" rx="9" fill="#347d83" fill-opacity=".25" stroke="#347d83" stroke-width="6"/><path d="M416 205h74m-20 0 24-36m-24 36 24 36" stroke="#347d83" stroke-width="7"/><circle cx="256" cy="205" r="84" stroke="#347d83" stroke-width="4" stroke-dasharray="8 10"/><path d="M114 150v-35m-25 15h50M114 275v-30" stroke="#347d83" stroke-width="7"/></g></svg>
