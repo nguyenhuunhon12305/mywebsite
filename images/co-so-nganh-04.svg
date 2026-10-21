@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Hệ thống viễn thông">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0f3ff"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#bg)"/>
+<circle cx="485" cy="120" r="181" fill="#dce2f7" opacity=".35"/>
+<circle cx="171" cy="346" r="151" fill="#dce2f7" opacity=".25"/>
+<g stroke="#647cae" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
+<g><path d="M208 326l93-196 93 196M244 256h114M262 214h76M277 178h46" stroke="#647cae" stroke-width="9" stroke-linecap="round"/><circle cx="301" cy="129" r="11" fill="#647cae"/><path d="M273 94q28-31 56 0m-82-21q53-60 107 0m-132-24q80-98 160 0" stroke="#647cae" stroke-width="7" stroke-linecap="round"/><g transform="translate(475 112) rotate(27)"><rect x="-22" y="-17" width="44" height="34" rx="5" fill="#647cae"/><rect x="-85" y="-14" width="54" height="28" rx="4" stroke="#647cae" stroke-width="5"/><rect x="31" y="-14" width="54" height="28" rx="4" stroke="#647cae" stroke-width="5"/></g></g></svg>
