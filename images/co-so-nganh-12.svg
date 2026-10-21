@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Xử lý tín hiệu số">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff1f5"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
-<rect width="640" height="400" fill="url(#bg)"/>
-<circle cx="485" cy="120" r="181" fill="#f1dbe3" opacity=".35"/>
-<circle cx="171" cy="346" r="151" fill="#f1dbe3" opacity=".25"/>
-<g stroke="#ba758c" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
-<g><path d="M104 302h448M120 133v175" stroke="#ba758c" stroke-opacity=".6" stroke-width="5"/><rect x="162" y="238" width="32" height="64" rx="5" fill="#ba758c" fill-opacity=".4"/><rect x="216" y="199" width="32" height="103" rx="5" fill="#ba758c" fill-opacity=".5"/><rect x="270" y="135" width="32" height="167" rx="5" fill="#ba758c" fill-opacity=".6"/><rect x="324" y="176" width="32" height="126" rx="5" fill="#ba758c" fill-opacity=".5"/><rect x="378" y="228" width="32" height="74" rx="5" fill="#ba758c" fill-opacity=".4"/><rect x="432" y="263" width="32" height="39" rx="5" fill="#ba758c" fill-opacity=".3"/><path d="M153 112c23-40 53-40 76 0s54 40 77 0 54-40 77 0 54 40 77 0" stroke="#ba758c" stroke-width="7" stroke-linecap="round"/></g></svg>
