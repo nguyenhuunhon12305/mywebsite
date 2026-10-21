@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#123e38" />
+  <meta name="description" content="Thống kê số lượt xem, khách truy cập và những trang được xem nhiều nhất của website Nguyễn Hữu Nhơn." />
+  <title>Thống kê truy cập | Nguyễn Hữu Nhơn</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link href="style.css" rel="stylesheet" />
+  <link href="analytics.css" rel="stylesheet" />
+</head>
+<body data-page="thong-ke.html" class="stats-body">
+<svg aria-hidden="true" style="position:absolute;width:0;height:0;overflow:hidden" xmlns="http://www.w3.org/2000/svg">
+<symbol id="i-arrow" viewbox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"></path></symbol>
+<symbol id="i-arrow-up" viewbox="0 0 24 24"><path d="M7 17 17 7M8 7h9v9"></path></symbol>
+<symbol id="i-search" viewbox="0 0 24 24"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></symbol>
+<symbol id="i-book" viewbox="0 0 24 24"><path d="M4 5.5C8 4 10 5 12 7c2-2 4-3 8-1.5v13c-3-1-6-1-8 1-2-2-5-2-8-1v-13ZM12 7v12.5"></path></symbol>
+<symbol id="i-heart" viewbox="0 0 24 24"><path d="M20.6 7.1c-1.6-2.4-5-2.7-7.1-.7l-1.5 1.5-1.5-1.5C8.4 4.4 5 4.7 3.4 7.1c-2.4 3.5.7 6.9 8.6 12.4 7.9-5.5 11-8.9 8.6-12.4Z"></path></symbol>
+<symbol id="i-plus" viewbox="0 0 24 24"><path d="M12 4v16M4 12h16"></path></symbol>
+<symbol id="i-x" viewbox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"></path></symbol>
+<symbol id="i-trash" viewbox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3m3 0-1 13H7L6 7m4 4v6m4-6v6"></path></symbol>
+<symbol id="i-cloud" viewbox="0 0 24 24"><path d="M8 18H6a4 4 0 0 1 0-8 6.5 6.5 0 0 1 12.5-1 4.5 4.5 0 0 1-.5 9H8Z"></path></symbol>
+<symbol id="i-cpu" viewbox="0 0 24 24"><rect height="12" rx="2" width="12" x="6" y="6"></rect><rect height="6" rx="1" width="6" x="9" y="9"></rect><path d="M9 2v4m6-4v4M9 18v4m6-4v4M2 9h4m-4 6h4m12-6h4m-4 6h4"></path></symbol>
+<symbol id="i-radio" viewbox="0 0 24 24"><circle cx="12" cy="12" r="2"></circle><path d="M6 6a8.5 8.5 0 0 0 0 12m12-12a8.5 8.5 0 0 1 0 12M3 3a13 13 0 0 0 0 18M21 3a13 13 0 0 1 0 18"></path></symbol>
+<symbol id="i-pin" viewbox="0 0 24 24"><path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 1 1 14 0Z"></path><circle cx="12" cy="10" r="2.5"></circle></symbol>
+<symbol id="i-sun" viewbox="0 0 24 24"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v3m0 14v3M2 12h3m14 0h3M4.9 4.9l2.1 2.1m10 10 2.1 2.1M19.1 4.9 17 7m-10 10-2.1 2.1"></path></symbol>
+<symbol id="i-code" viewbox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-2-12-4 14"></path></symbol>
+<symbol id="i-menu" viewbox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"></path></symbol>
+<symbol id="i-download" viewbox="0 0 24 24"><path d="M12 3v12m-4-4 4 4 4-4M4 17v3h16v-3"></path></symbol>
+</svg>
+<header class="site-header"><div class="container header-row">
+<a aria-label="Nguyễn Hữu Nhơn - Trang chủ" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-mark"><svg fill="none" height="27" viewbox="0 0 36 36" width="27"><path d="M4 22c7 3 21 3 28 0l-5 8H9l-5-8Z" fill="#4d9180"></path><path d="M18 5v17M18 7l10 12H18" stroke="#285b4c" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path><path d="M3 32q5-3 10 0t10 0t10 0" stroke="#62a9a1" stroke-linecap="round" stroke-width="2"></path></svg></span>
+<span><span class="brand-name">Nguyễn Hữu Nhơn</span><span class="brand-desc">Website cá nhân</span></span>
+</a>
+<nav aria-label="Điều hướng chính" class="site-nav" id="site-nav"><a href="index.html">Trang chủ</a>
+<a href="gioi-thieu.html">Giới thiệu</a>
+<a href="du-an.html">Dự án</a>
+<a href="tai-lieu.html">Tài liệu</a>
+<a href="lien-he.html">Liên hệ</a><a href="thong-ke.html" aria-current="page" class="active">Thống kê</a></nav>
+<a class="header-cta" href="tai-lieu.html">Tài liệu</a>
+<button aria-controls="site-nav" aria-expanded="false" aria-label="Mở menu" class="menu-toggle" id="menu-toggle" type="button"><svg class="icon"><use href="#i-menu"></use></svg></button>
+</div></header>
+<main class="stats-dashboard" id="stats-main">
+  <section class="stats-mast">
+    <div class="stats-wrap">
+      <div class="stats-hero-top">
+        <div class="stats-hero-id"><span class="stats-hero-logo">NHN</span><span><strong>NGUYỄN HỮU NHƠN</strong><small>THỐNG KÊ WEBSITE</small></span></div>
+        <span class="stats-connection" id="stats-connection" role="status"><span class="stats-indicator"></span>Chưa kết nối</span>
+      </div>
+      <div class="stats-hero-content">
+        <div><div class="stats-eyebrow">WEBSITE ANALYTICS</div><h1>TỔNG QUAN TRUY CẬP<span>.</span></h1></div>
+        <div class="stats-period" role="group" aria-label="Khoảng thời gian thống kê">
+          <button type="button" class="active" data-period="7" aria-pressed="true">7 ngày</button>
+          <button type="button" data-period="30" aria-pressed="false">30 ngày</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="stats-wrap stats-overlap">
+    <section aria-labelledby="stats-overview">
+      <div class="stats-section-top"><h2 id="stats-overview">Tổng quan hoạt động</h2></div>
+      <div class="stats-topcards">
+        <article class="stats-panel stats-page-card">
+          <div class="stats-infohead"><span class="stats-symbol" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7-10-7-10-7Z"/><circle cx="12" cy="12" r="3"/></svg></span><span class="stats-small-label">LƯỢT XEM TRANG</span></div>
+          <div class="stats-metric-label">Pageviews</div>
+          <div id="stats-pageviews" class="stats-number" aria-live="polite">—</div>
+          <div class="stats-footrow"><span class="stats-trend" id="stats-growth">—</span><span>So với kỳ trước</span></div>
+        </article>
+        <article class="stats-panel stats-visitors-card">
+          <div class="stats-visitors-head"><div class="stats-infohead"><span class="stats-symbol gold" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M16 21v-2c0-2-1.5-3.5-4-3.5H6c-2.5 0-4 1.5-4 3.5v2m7-9a4 4 0 1 0 0-8 4 4 0 0 0 0 8Zm9 2c2.5 0 4 1.5 4 3.5v3m-6-17a4 4 0 0 1 0 8"/></svg></span><div><span class="stats-small-label">KHÁCH TRUY CẬP</span><h2>Visitors</h2></div></div></div>
+          <div class="stats-visitor-split">
+            <div class="stats-visitor-mini"><span class="stats-mini-label"><span class="stats-mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 9V5a2 2 0 0 1 2-2h4m6 0h4a2 2 0 0 1 2 2v4M3 15v4a2 2 0 0 0 2 2h4m6 0h4a2 2 0 0 0 2-2v-4M8 12h8"/></svg></span>Khách riêng</span><div class="stats-mini-number" id="stats-browsers">—</div></div>
+            <div class="stats-visitor-mini accounts"><span class="stats-mini-label"><span class="stats-mini-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="3"/><circle cx="8" cy="11" r="2"/><path d="M5 17c1-3 5-3 6 0m3-7h5m-5 4h5"/></svg></span>Tài khoản Google riêng</span><div class="stats-mini-number" id="stats-accounts">—</div><div id="stats-signin" class="stats-signin" hidden></div></div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <section class="stats-lower-grid" aria-label="Biểu đồ và trang phổ biến">
+      <article class="stats-panel stats-chart-card">
+        <div class="stats-card-title"><div><span class="stats-small-label">XU HƯỚNG</span><h2>Hoạt động theo thời gian</h2></div><div class="stats-chart-toggle" role="group" aria-label="Chỉ số biểu đồ"><button class="active" type="button" data-chart="views" aria-pressed="true">Lượt xem</button><button type="button" data-chart="visitors" aria-pressed="false">Khách riêng</button></div></div>
+        <div class="stats-chart-area"><svg id="stats-trend-chart" viewBox="0 0 760 280" role="img" aria-label="Biểu đồ xu hướng truy cập website"></svg><div id="stats-chart-empty" class="stats-chart-empty">Chưa có dữ liệu</div></div>
+        <div class="stats-chartfooter"><span class="stats-legend" id="stats-chart-legend">Lượt xem trang</span><span id="stats-chart-range">7 ngày gần đây</span></div>
+      </article>
+      <article class="stats-panel stats-popular-card">
+        <div class="stats-card-title"><div><span class="stats-small-label">TRANG PHỔ BIẾN</span><h2>Top trang được xem</h2></div><span class="stats-symbol blue" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 20h18M6 17v-6m6 6V4m6 13v-9"/></svg></span></div>
+        <div id="stats-popular-list" class="stats-popular-list" aria-live="polite"></div>
+      </article>
+    </section>
+  </div>
+</main>
+<footer><div class="container footer-inner"><span>© <span id="year">2026</span> Nguyễn Hữu Nhơn</span><a href="index.html">Về trang chủ ↑</a></div></footer>
+<script src="script.js"></script>
+<script src="analytics-config.js"></script>
+<script src="analytics.js"></script>
+<script src="stats-dashboard.js"></script>
+</body>
+</html>
