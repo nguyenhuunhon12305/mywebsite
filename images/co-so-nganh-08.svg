@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Thiết kế Hệ thống và Vi mạch số">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f0f1ff"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
-<rect width="640" height="400" fill="url(#bg)"/>
-<circle cx="485" cy="120" r="181" fill="#dedffc" opacity=".35"/>
-<circle cx="171" cy="346" r="151" fill="#dedffc" opacity=".25"/>
-<g stroke="#565d98" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
-<g><rect x="197" y="94" width="231" height="231" rx="25" fill="#565d98" fill-opacity=".11" stroke="#565d98" stroke-width="8"/><rect x="250" y="147" width="125" height="125" rx="12" fill="#565d98" fill-opacity=".16" stroke="#565d98" stroke-width="7"/><path d="M229 84V50m80 34V50m80 34V50M229 335v34m80-34v34m80-34v34M187 125h-38m38 65h-38m38 65h-38m289-130h38m-38 65h38m-38 65h38" stroke="#565d98" stroke-width="9" stroke-linecap="round"/><path d="M278 184h69m-69 24h69m-69 24h44" stroke="#565d98" stroke-width="7" stroke-linecap="round"/></g></svg>
