@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="430" viewBox="0 0 640 400" fill="none" aria-label="Minh họa Tín hiệu và hệ thống">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#eafaFC"/><stop offset="1" stop-color="#FFFFFF"/></linearGradient></defs>
+<rect width="640" height="400" fill="url(#bg)"/>
+<circle cx="485" cy="120" r="181" fill="#ccebf0" opacity=".35"/>
+<circle cx="171" cy="346" r="151" fill="#ccebf0" opacity=".25"/>
+<g stroke="#248b95" stroke-opacity=".09" stroke-width="3"><path d="M15 67h126l43 43h53M0 368h250l41-45h132M483 48h75v74h82"/><path d="M23 34h251M0 96h80M445 376h195"/><circle cx="145" cy="67" r="7"/><circle cx="560" cy="122" r="7"/><circle cx="291" cy="323" r="7"/></g>
+<g><path d="M102 210h450M163 102v212" stroke="#248b95" stroke-opacity=".6" stroke-width="5"/><path d="M115 208c24-95 63-95 88 0s64 95 88 0 64-95 88 0 64 95 88 0" stroke="#248b95" stroke-width="9" fill="none" stroke-linecap="round"/><path d="M188 110h303M188 305h303" stroke="#248b95" stroke-opacity=".18" stroke-width="3"/><circle cx="491" cy="210" r="12" fill="#248b95"/></g></svg>
