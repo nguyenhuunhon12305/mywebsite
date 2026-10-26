@@ -1,5 +1,6 @@
-/* Nhập URL Cloudflare Worker sau khi triển khai. Để trống sẽ không hiển thị số liệu giả. */
+
 window.NHN_ANALYTICS_CONFIG = {
-  apiBase: "",
+  apiBase: "https://nhn-site-analytics.huunhon12305-analytics26.workers.dev",
   googleClientId: ""
 };
+  
